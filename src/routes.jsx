@@ -10,15 +10,23 @@ const Paths = () => {
         [
             { 
                 path : "/",
-                element :<Navigate to="/countries"/>
+                element :<Navigate to="/inicio"/>
             },
             {
-                path : "proyectos",
+                path : "inicio",
                 element :<App/>
             },
             {
                 path : "trabajos",
                 element :<Country/>
+            },
+            {
+                path: '/404',
+                element: <p className="text-center"> Page not found</p>
+            },
+            {
+                path:"*",
+                element: <Navigate to={"/"} replace />
             }
         ]
     )

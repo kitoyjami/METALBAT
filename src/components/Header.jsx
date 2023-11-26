@@ -23,7 +23,32 @@ const Headers = () =>{
     }, [] )
 
     return (
-        <p> Headers</p>
+        <>
+        <nav className="inicio navbar navbar-expand-lg ">
+            <div className="container-fluid">
+                <div className="otro logo">
+                <a href="javascript:location.reload()">
+              <img 
+              className="logo" 
+              src="https://res.cloudinary.com/dtkojle4f/image/upload/v1701032126/LOGO_vmy0wi.png"
+              alt="Logo de Página">
+
+              </img>
+              </a>
+                </div>
+                <div className="otro medio">
+                    <p className="interno">About us</p>
+                    <p className="interno">Productos </p>
+                    <p className="interno">Asesoria</p>
+                    <p className="interno">Proyectos</p>
+                </div>
+                <div className="otro derecha">
+                    <button type="button" className="button primary-btn">Contactar </button>
+                </div>
+            </div>
+        </nav>
+
+      </>
     )    
 }
 
