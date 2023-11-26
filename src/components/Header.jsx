@@ -27,7 +27,7 @@ const Headers = () =>{
         <nav className="inicio navbar navbar-expand-lg ">
             <div className="container-fluid">
                 <div className="otro logo">
-                <a href="javascript:location.reload()">
+                <a href="https://metalstructingenieria.com/inicio">
               <img 
               className="logo" 
               src="https://res.cloudinary.com/dtkojle4f/image/upload/v1701032126/LOGO_vmy0wi.png"
