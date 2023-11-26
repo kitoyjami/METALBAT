@@ -1,6 +1,7 @@
 import {BrowserRouter, Navigate, useRoutes} from "react-router-dom"
 import App from "./pages/App"
 import Country from "./pages/Movie"
+import Body from "./components/Body"
 
 
 
@@ -14,7 +15,7 @@ const Paths = () => {
             },
             {
                 path : "inicio",
-                element :<App/>
+                element :<Body/>
             },
             {
                 path : "trabajos",
