@@ -7,7 +7,7 @@ const ImagenInicial = () => {
         src="https://res.cloudinary.com/dtkojle4f/image/upload/v1701042813/brewery-8398533_1920_pz4b4a.jpg"
         alt="Imagen de fondo"
       />
-      <div className="content">
+      <div className="content hola">
         <h1>Descubre la belleza del diseño</h1>
         <h2>Nos especializamos en diseño, modelado e ingeniería</h2>
         <div className="buttons">

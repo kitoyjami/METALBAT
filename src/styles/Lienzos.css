@@ -19,7 +19,7 @@
   .content {
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 35%;
     transform: translate(-50%, -50%);
     color: rgb(218, 224, 226); /* Color del texto */
   }
@@ -183,3 +183,114 @@
     color: #4CAF50;
     text-decoration: none;
   }
+
+  
+
+
+ .client-testimonials-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.testimonial-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+}
+
+.testimonial-content {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.testimonial-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial-name {
+  font-weight: bold;
+}
+
+.testimonial-rating {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-rating span {
+  font-size: 1.5em;
+  margin-right: 3px;
+  color: #FFD700; /* Color de estrellas amarillas */
+}
+
+
+
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.text-section {
+  width: 40%;
+  text-align: left;
+  padding-left: 2em;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.buttons-section {
+  display: flex;
+  gap: 50px;
+}
+
+.contact-button,
+.whatsapp-button {
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  background-color: #1d3566; /* Color de fondo del botón de contacto */
+  color: #fff; /* Color del texto del botón */
+  border-radius: 5px;
+}
+
+
+.image-section {
+  width: 40%;
+}
+s
+.image-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

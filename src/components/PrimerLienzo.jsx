@@ -6,6 +6,8 @@ import { useSpring, animated } from 'react-spring';
 import ImagenInicial from './ImagenInicial';
 import Descripciondos from './Descripciondos';
 import Descripciontres from './Descripciontres';
+import Testimonio from './Testimonio';
+import Contacto from './Contacto';
 
 
 const Lienzo1 = () => {
@@ -16,9 +18,10 @@ const Lienzo1 = () => {
          <ImagenInicial />
          <Descripciondos />
          <Descripciontres />
+         <Testimonio />
+         <Contacto />
     </>
         
-
 
     )
 }
