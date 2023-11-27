@@ -9,6 +9,7 @@ import Descripciontres from './Descripciontres';
 import Testimonio from './Testimonio';
 import Contacto from './Contacto';
 import Formulario from './Formulario';
+import Footer from './Footer';
 
 
 const Lienzo1 = () => {
@@ -22,6 +23,7 @@ const Lienzo1 = () => {
          <Testimonio />
          <Contacto />
          <Formulario />
+         <Footer />
     </>
         
 
