@@ -286,11 +286,75 @@ p {
 
 
 .image-section {
-  width: 40%;
+  width: 60%;
 }
-s
-.image-section img {
-  width: 100%;
+
+.imagen2{
+  width:100%;
   height: auto;
   border-radius: 8px;
+
+}
+
+
+
+.quotation-form-container {
+    
+  margin: 0 auto;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.1em;
+  margin-bottom: 3px;
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  font-size: 1em;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 0px;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button {
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  background-color: #1d3566;
 }

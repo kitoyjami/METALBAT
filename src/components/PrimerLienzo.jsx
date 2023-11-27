@@ -8,6 +8,7 @@ import Descripciondos from './Descripciondos';
 import Descripciontres from './Descripciontres';
 import Testimonio from './Testimonio';
 import Contacto from './Contacto';
+import Formulario from './Formulario';
 
 
 const Lienzo1 = () => {
@@ -20,6 +21,7 @@ const Lienzo1 = () => {
          <Descripciontres />
          <Testimonio />
          <Contacto />
+         <Formulario />
     </>
         
 
