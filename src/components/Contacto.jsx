@@ -11,7 +11,7 @@ const Contacto = () =>
         </div>
       </div>
       <div className="image-section">
-        <img src={"https://res.cloudinary.com/dtkojle4f/image/upload/v1701054324/job-5382501_1280_y96mfb.jpg"} alt="Imagen de contacto" />
+        <img className="imagen2" src={"https://res.cloudinary.com/dtkojle4f/image/upload/v1701054324/job-5382501_1280_y96mfb.jpg"} alt="Imagen de contacto" />
       </div>
     </div>
     )
