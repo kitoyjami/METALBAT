@@ -12,7 +12,7 @@ const ImagenInicial = () => {
         <h2>Nos especializamos en diseño, modelado e ingeniería</h2>
         <div className="buttons">
           <button className="explore-button">Explorar</button>
-          <button className="contact-button">Contacto</button>
+          <button className="explore-button">Contacto</button>
         </div>
       </div>
     </div>
