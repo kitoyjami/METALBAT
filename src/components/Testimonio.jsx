@@ -6,6 +6,9 @@ import 'slick-carousel/slick/slick-theme.css'
 const testimonials = [
     { id: 1, name: 'Cliente 1', content: '¡Estoy muy contento con el servicio!', rating: 5 },
     { id: 2, name: 'Cliente 2', content: 'Experiencia increíble con la empresa.', rating: 4 },
+    { id: 3, name: 'Cliente 3', content: 'Experiencia increíble con la empresa.', rating: 5 },
+    { id: 4, name: 'Cliente 4', content: 'Experiencia increíble con la empresa.', rating: 4 },
+    { id: 5, name: 'Cliente 5', content: 'Experiencia increíble con la empresa.', rating: 5 },
     // Añade más testimonios según sea necesario
   ];
 
