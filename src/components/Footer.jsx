@@ -16,7 +16,7 @@ const Footer= () => {
           </div>
           <div className="footer-section">
             <h4>Privacy Policy</h4>
-            <p>Consulta nuestra política de privacidad y cómo protegemos tus datos Maicol.</p>
+            <p>Consulta nuestra política de privacidad y cómo protegemos tus datos.</p>
           </div>
           <div className="footer-section">
             <h4>Returns</h4>
