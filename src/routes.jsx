@@ -14,7 +14,7 @@ const Paths = () => {
                 element :<Navigate to="/inicio"/>
             },
             {
-                path : "inicio",
+                path : "/inicio",
                 element :<Body/>
             },
             {
