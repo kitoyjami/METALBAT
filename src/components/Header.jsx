@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react"
 import { getProducts } from "../services"
+import WspBtn from "./WspBtn"
+
 
 const Headers = () =>{
-
     const [listCountries, setLisCountries] = useState ([])
     const [error,setError] = useState (null)
-
     useEffect( () =>{
         const getData = async () => {
             try
@@ -42,7 +42,7 @@ const Headers = () =>{
                     <p className="interno">Proyectos</p>
                 </div>
                 <div className="otro derecha">
-                    <button type="button" className="button primary-btn">Contactar </button>
+                    < WspBtn/>
                 </div>
             </div>
         </nav>
