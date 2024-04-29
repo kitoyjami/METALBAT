@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Formulario = () => {
+      const ID1=import.meta.env.VITE_ID
+      const TPID=import.meta.env.VITE_TEMPLATE_ID
+      const key = import.meta.env.VITE_PUBLIC_KEY
 
     const [formData, setFormData] = useState({
         firstName: '',
@@ -11,7 +15,8 @@ const Formulario = () => {
         message: '',
         acceptTerms: false,
       });
-    
+      const [enviado, setEnviado] = useState(false);
+
       const handleChange = (e) => {
         const { name, value, type, checked } = e.target;
         setFormData((prevData) => ({
@@ -20,10 +25,25 @@ const Formulario = () => {
         }));
       };
     
-      const handleSubmit = (e) => {
-        e.preventDefault();
+      const handleSubmit = (event) => {
+        event.preventDefault()
+        emailjs.sendForm(ID1,TPID,event.target,key).then(response => 
+          {
+          console.log(response) 
+          alert('Correo enviado con éxito')
+          setFormData({
+            firstName: '',
+            lastName: '',
+            email: '',
+            phone: '',
+            serviceType: 'design', // Valor por defecto
+            message: '',
+            acceptTerms: false,
+          })
+          setEnviado(true)
+        }
+        ).catch(error=>console.log(error) )
         // Aquí puedes manejar la lógica para enviar el formulario
-        console.log('Formulario enviado:', formData);
       };
 
     return (    
