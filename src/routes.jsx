@@ -1,6 +1,9 @@
 import {BrowserRouter, Navigate, useRoutes} from "react-router-dom"
 import App from "./pages/App"
-import Country from "./pages/Movie"
+import Acerca from "./pages/Acerca"
+import Productos from "./pages/Productos"
+import Asesoria from "./pages/Asesoria"
+import Proyectos from "./pages/Proyectos"
 import Body from "./components/Body"
 
 
@@ -14,12 +17,25 @@ const Paths = () => {
                 element :<Navigate to="/inicio"/>
             },
             {
-                path : "/inicio",
+                path : "inicio",
                 element :<Body/>
             },
             {
-                path : "trabajos",
-                element :<Country/>
+                path : "/acerca",
+                element :<Acerca/>
+            },
+            {
+                path : "/productos",
+                element :<Productos/>
+            },
+            {
+                path : "/asesoria",
+                element :<Asesoria/>
+            },
+
+            {
+                path : "/proyectos",
+                element :<Proyectos/>
             },
             {
                 path: '/404',

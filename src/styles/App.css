@@ -54,3 +54,16 @@ button {
   color: white;
   
 }
+/* styles.css */
+
+
+.referencia {
+  text-decoration: none; /* Quita la decoración de enlace */
+  color: inherit; /* Usa el color del texto heredado */
+  cursor: pointer; /* Muestra el cursor como puntero para indicar que es interactivo */
+}
+
+.referencia:hover {
+  text-decoration:underline; /* No aplicar subrayado en el hover */
+}
+

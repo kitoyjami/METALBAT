@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import { getProducts } from "../services"
 import WspBtn from "./WspBtn"
+import { Link } from "react-router-dom"
 
 
 const Headers = () =>{
@@ -36,10 +37,11 @@ const Headers = () =>{
               </a>
                 </div>
                 <div className="otro medio">
-                    <p className="interno">About us</p>
-                    <p className="interno">Productos </p>
-                    <p className="interno">Asesoria</p>
-                    <p className="interno">Proyectos</p>
+                    <p className="interno "> <Link className="referencia" to ="/inicio"> Inicio</Link></p>
+                    <p className="interno "> <Link className="referencia" to ="/acerca"> About us</Link></p>
+                    <p className="interno "> <Link className="referencia" to ="/productos"> Productos </Link> </p>
+                    <p className="interno "> <Link className="referencia" to ="/asesoria">  Asesoria </Link> </p>
+                    <p className="interno "> <Link className="referencia" to ="/proyectos">Proyectos </Link>  </p>
                 </div>
                 <div className="otro derecha">
                     < WspBtn/>
