@@ -1,3 +1,4 @@
+import WspBtn from "./WspBtn"
 const Contacto = () =>
 {
     return (
@@ -7,7 +8,9 @@ const Contacto = () =>
         <p>Contacta con nosotros para una asesoría personalizada.</p>
         <div className="buttons-section">
           <button className="contact-button">Contacto</button>
-          <button className="contact-button">WhatsApp</button>
+          <div className="Customizar">
+                    < WspBtn/>
+                </div>
         </div>
       </div>
       <div className="image-section">
